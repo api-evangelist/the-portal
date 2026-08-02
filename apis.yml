@@ -1,8 +1,12 @@
 aid: the-portal
-name: The Portal
-description: 'The Portal is a company surfaced as a portfolio company of multicoin-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Portals
+description: 'Portals (theportal.to) is a browser-based, Web3 metaverse and social gaming platform where
+  users can play, collect, and create in a connected universe of interoperable virtual worlds. Players
+  embark on quests, collect rare loot and digital collectibles, and build their own spaces, all directly
+  in the browser without a download. Built on the Solana blockchain, Portals is a consumer-facing metaverse
+  experience backed by Multicoin Capital. This profile was added to the API Evangelist network as a
+  portfolio-company lead; as of this enrichment pass Portals publishes no public developer API, SDK, or
+  documentation surface, so this remains a company/identity profile rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/the-portal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,29 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://theportal.to/images/metaverse-theportal.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Metaverse
+- Gaming
+- NFT
+- Solana
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-portal-domain-security.yml
 - type: Website
   url: https://theportal.to
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

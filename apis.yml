@@ -36,6 +36,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://theportal.to', status: 301, note: 'declared website redirects to https://portals.to/play — a different registrable domain (theportal.to -> portals.to), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://theportal.to/images/metaverse-theportal.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
